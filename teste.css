@@ -1,0 +1,55 @@
+body {
+    background-color: #282828;
+    color: white;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+header {
+    max-height: 50px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input {
+    text-transform: uppercase;
+}
+
+.table {
+    color: white;
+}
+
+.tabela_pericia {
+    display: flex;
+    contain: content;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.input_pericias {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    max-width: 2rem;
+    color: white;
+    text-align: center;
+    font-size:xx-small;  
+}
+
+.input_pericias_2 {
+    border: none;
+    background: transparent;
+    max-width: 2rem;
+    color: white;
+    text-align: center;
+    font-size:xx-small;
+}
+
+.tabela_atributos {
+    display: flex;
+    contain: content;
+    justify-content: space-evenly;
+    text-align: center;
+}

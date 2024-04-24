@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ficha - sem editar.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <fieldset class="atributos"> <!--atributos_força-->
+        <legend><b>Força</b></legend>
+        <fieldset class="atributos_modificador_container">
+          <legend>Modificador</legend>
+          <div class="atributos_modificador" id="modificador_forca">0</div>
+        </fieldset>
+
+        <fieldset class="atributos_valor_container">
+          <legend>Atributo</legend>
+          <div class="atributos_valor">
+            <input type="text" id="atributo_forca" value="0" onchange="rodar()"></div>
+        </fieldset>
+      </fieldset> <!--atributos_força-->    
+
+    
+    <script>
+
+        function rodar() {
+            var atributo = parseInt(document.getElementById("atributo_forca").value)    
+            document.getElementById("modificador_forca").innerHTML = Math.floor((atributo-10)/2)
+        }
+        
+
+
+    </script>
+
+</body>
+</html>
